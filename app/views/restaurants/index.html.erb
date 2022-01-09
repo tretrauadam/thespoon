@@ -4,3 +4,5 @@
 <h4> <%= restaurant.name %></h4>
 <h2> <%= restaurant.rating %></h2>
 <% end %>
+<%= link_to "add a new restaurants" new_restaurant_path  %>
+<%= link_to "delete" restaurant_path(restaurant) %>
